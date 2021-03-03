@@ -1,0 +1,456 @@
+[Tue Dec 01 15:29:45.320666 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626] mod_wsgi (pid=17): Target WSGI script '/home/ubuntu/django/seethos/seethos/wsgi.py' cannot be loaded as Python module.
+[Tue Dec 01 15:29:45.321018 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626] mod_wsgi (pid=17): Exception occurred processing WSGI script '/home/ubuntu/django/seethos/seethos/wsgi.py'.
+[Tue Dec 01 15:29:45.326230 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626] Traceback (most recent call last):
+[Tue Dec 01 15:29:45.326543 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]   File "/home/ubuntu/django/seethos/seethos/wsgi.py", line 16, in <module>
+[Tue Dec 01 15:29:45.327017 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]     application = get_wsgi_application()
+[Tue Dec 01 15:29:45.327197 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Dec 01 15:29:45.327380 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]     django.setup(set_prefix=False)
+[Tue Dec 01 15:29:45.327581 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+[Tue Dec 01 15:29:45.327861 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]     apps.populate(settings.INSTALLED_APPS)
+[Tue Dec 01 15:29:45.328136 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/apps/registry.py", line 91, in populate
+[Tue Dec 01 15:29:45.328293 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]     app_config = AppConfig.create(entry)
+[Tue Dec 01 15:29:45.328519 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/apps/config.py", line 90, in create
+[Tue Dec 01 15:29:45.328758 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]     module = import_module(entry)
+[Tue Dec 01 15:29:45.328979 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Tue Dec 01 15:29:45.329183 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Dec 01 15:29:45.329340 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Tue Dec 01 15:29:45.329499 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Tue Dec 01 15:29:45.329649 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626]   File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+[Tue Dec 01 15:29:45.329826 2020] [wsgi:error] [pid 17:tid 139826879133440] [remote 172.17.0.1:57626] ModuleNotFoundError: No module named 'corsheaders'
+[Tue Dec 01 15:29:45.522231 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630] mod_wsgi (pid=17): Target WSGI script '/home/ubuntu/django/seethos/seethos/wsgi.py' cannot be loaded as Python module.
+[Tue Dec 01 15:29:45.522664 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630] mod_wsgi (pid=17): Exception occurred processing WSGI script '/home/ubuntu/django/seethos/seethos/wsgi.py'.
+[Tue Dec 01 15:29:45.524811 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630] Traceback (most recent call last):
+[Tue Dec 01 15:29:45.525232 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630]   File "/home/ubuntu/django/seethos/seethos/wsgi.py", line 16, in <module>
+[Tue Dec 01 15:29:45.525451 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630]     application = get_wsgi_application()
+[Tue Dec 01 15:29:45.525723 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Dec 01 15:29:45.525931 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630]     django.setup(set_prefix=False)
+[Tue Dec 01 15:29:45.526153 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+[Tue Dec 01 15:29:45.526378 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630]     apps.populate(settings.INSTALLED_APPS)
+[Tue Dec 01 15:29:45.526564 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/apps/registry.py", line 83, in populate
+[Tue Dec 01 15:29:45.526730 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630]     raise RuntimeError("populate() isn't reentrant")
+[Tue Dec 01 15:29:45.526941 2020] [wsgi:error] [pid 17:tid 139826761561856] [remote 172.17.0.1:57630] RuntimeError: populate() isn't reentrant
+[Wed Dec 02 03:41:16.623288 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698] Internal Server Error: /
+[Wed Dec 02 03:41:16.626104 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698] Traceback (most recent call last):
+[Wed Dec 02 03:41:16.626768 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Wed Dec 02 03:41:16.627396 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     response = get_response(request)
+[Wed Dec 02 03:41:16.628009 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/base.py", line 165, in _get_response
+[Wed Dec 02 03:41:16.628590 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     callback, callback_args, callback_kwargs = self.resolve_request(request)
+[Wed Dec 02 03:41:16.629141 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+[Wed Dec 02 03:41:16.629715 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     resolver_match = resolver.resolve(request.path_info)
+[Wed Dec 02 03:41:16.630245 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+[Wed Dec 02 03:41:16.630823 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     for pattern in self.url_patterns:
+[Wed Dec 02 03:41:16.631340 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 03:41:16.632111 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 03:41:16.632822 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+[Wed Dec 02 03:41:16.633410 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 02 03:41:16.633950 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 03:41:16.634470 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 03:41:16.635098 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+[Wed Dec 02 03:41:16.635635 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     return import_module(self.urlconf_name)
+[Wed Dec 02 03:41:16.636194 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 03:41:16.636801 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 03:41:16.637385 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 03:41:16.638066 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 03:41:16.638836 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 03:41:16.639535 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 03:41:16.640371 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 03:41:16.641021 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 03:41:16.641533 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/seethos/seethos/urls.py", line 22, in <module>
+[Wed Dec 02 03:41:16.642074 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     path('operations/', include('uimanagement.urls')),
+[Wed Dec 02 03:41:16.642601 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+[Wed Dec 02 03:41:16.643148 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     urlconf_module = import_module(urlconf_module)
+[Wed Dec 02 03:41:16.643719 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 03:41:16.644240 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 03:41:16.644798 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 03:41:16.645317 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 03:41:16.645925 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 03:41:16.646557 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 03:41:16.648791 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 03:41:16.649437 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 03:41:16.650374 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/seethos/uimanagement/urls.py", line 2, in <module>
+[Wed Dec 02 03:41:16.651220 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     from . import views
+[Wed Dec 02 03:41:16.651915 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/seethos/uimanagement/views.py", line 12, in <module>
+[Wed Dec 02 03:41:16.652633 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     from .utils.processManagement import (
+[Wed Dec 02 03:41:16.653209 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/seethos/uimanagement/utils/processManagement.py", line 9, in <module>
+[Wed Dec 02 03:41:16.653865 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     from detector.main import create_video_process, stop_processes
+[Wed Dec 02 03:41:16.654563 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698] ModuleNotFoundError: No module named 'detector'
+[Wed Dec 02 03:41:16.655204 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698] 
+[Wed Dec 02 03:41:16.656011 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698] Internal Server Error: /
+[Wed Dec 02 03:41:16.656580 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698] Traceback (most recent call last):
+[Wed Dec 02 03:41:16.657197 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Wed Dec 02 03:41:16.657868 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     response = get_response(request)
+[Wed Dec 02 03:41:16.658448 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/base.py", line 165, in _get_response
+[Wed Dec 02 03:41:16.659419 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     callback, callback_args, callback_kwargs = self.resolve_request(request)
+[Wed Dec 02 03:41:16.660170 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+[Wed Dec 02 03:41:16.660861 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     resolver_match = resolver.resolve(request.path_info)
+[Wed Dec 02 03:41:16.661543 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+[Wed Dec 02 03:41:16.662254 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     for pattern in self.url_patterns:
+[Wed Dec 02 03:41:16.663131 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 03:41:16.663986 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 03:41:16.664712 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+[Wed Dec 02 03:41:16.665362 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 02 03:41:16.666094 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 03:41:16.666767 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 03:41:16.667424 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+[Wed Dec 02 03:41:16.668076 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     return import_module(self.urlconf_name)
+[Wed Dec 02 03:41:16.668712 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 03:41:16.669291 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 03:41:16.669912 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 03:41:16.670614 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 03:41:16.671318 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 03:41:16.672032 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 03:41:16.672724 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 03:41:16.673341 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 03:41:16.673924 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/seethos/seethos/urls.py", line 22, in <module>
+[Wed Dec 02 03:41:16.674510 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     path('operations/', include('uimanagement.urls')),
+[Wed Dec 02 03:41:16.675093 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+[Wed Dec 02 03:41:16.675744 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     urlconf_module = import_module(urlconf_module)
+[Wed Dec 02 03:41:16.676348 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 03:41:16.676996 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 03:41:16.677642 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 03:41:16.678364 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 03:41:16.679043 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 03:41:16.679878 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 03:41:16.681074 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 03:41:16.682184 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 03:41:16.683091 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/seethos/uimanagement/urls.py", line 2, in <module>
+[Wed Dec 02 03:41:16.683744 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     from . import views
+[Wed Dec 02 03:41:16.684606 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/seethos/uimanagement/views.py", line 12, in <module>
+[Wed Dec 02 03:41:16.685311 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     from .utils.processManagement import (
+[Wed Dec 02 03:41:16.685988 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]   File "/home/ubuntu/django/seethos/uimanagement/utils/processManagement.py", line 9, in <module>
+[Wed Dec 02 03:41:16.686647 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698]     from detector.main import create_video_process, stop_processes
+[Wed Dec 02 03:41:16.687388 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698] ModuleNotFoundError: No module named 'detector'
+[Wed Dec 02 03:41:16.688064 2020] [wsgi:error] [pid 17:tid 140177711212288] [remote 172.17.0.1:57698] 
+[Wed Dec 02 03:41:19.446840 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704] Internal Server Error: /favicon.ico
+[Wed Dec 02 03:41:19.448304 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704] Traceback (most recent call last):
+[Wed Dec 02 03:41:19.449150 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Wed Dec 02 03:41:19.450145 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     response = get_response(request)
+[Wed Dec 02 03:41:19.452171 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+[Wed Dec 02 03:41:19.454409 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     response = self.process_request(request)
+[Wed Dec 02 03:41:19.455472 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+[Wed Dec 02 03:41:19.456301 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     if self.should_redirect_with_slash(request):
+[Wed Dec 02 03:41:19.457170 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+[Wed Dec 02 03:41:19.459038 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     not is_valid_path(request.path_info, urlconf) and
+[Wed Dec 02 03:41:19.459878 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+[Wed Dec 02 03:41:19.460970 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     resolve(path, urlconf)
+[Wed Dec 02 03:41:19.462281 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+[Wed Dec 02 03:41:19.466505 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     return get_resolver(urlconf).resolve(path)
+[Wed Dec 02 03:41:19.472370 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+[Wed Dec 02 03:41:19.477310 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     for pattern in self.url_patterns:
+[Wed Dec 02 03:41:19.479216 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 03:41:19.479980 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 03:41:19.480795 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+[Wed Dec 02 03:41:19.481491 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 02 03:41:19.482143 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 03:41:19.482828 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 03:41:19.483487 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+[Wed Dec 02 03:41:19.484124 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     return import_module(self.urlconf_name)
+[Wed Dec 02 03:41:19.485062 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 03:41:19.485884 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 03:41:19.486818 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 03:41:19.488020 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 03:41:19.489320 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 03:41:19.490092 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 03:41:19.490849 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 03:41:19.491624 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 03:41:19.492791 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/seethos/seethos/urls.py", line 22, in <module>
+[Wed Dec 02 03:41:19.494158 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     path('operations/', include('uimanagement.urls')),
+[Wed Dec 02 03:41:19.496656 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+[Wed Dec 02 03:41:19.497561 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     urlconf_module = import_module(urlconf_module)
+[Wed Dec 02 03:41:19.498363 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 03:41:19.499272 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 03:41:19.500098 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 03:41:19.500906 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 03:41:19.501731 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 03:41:19.502662 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 03:41:19.503468 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 03:41:19.504304 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 03:41:19.505082 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/seethos/uimanagement/urls.py", line 2, in <module>
+[Wed Dec 02 03:41:19.505777 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     from . import views
+[Wed Dec 02 03:41:19.506505 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/seethos/uimanagement/views.py", line 12, in <module>
+[Wed Dec 02 03:41:19.507167 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     from .utils.processManagement import (
+[Wed Dec 02 03:41:19.507898 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/seethos/uimanagement/utils/processManagement.py", line 9, in <module>
+[Wed Dec 02 03:41:19.508611 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     from detector.main import create_video_process, stop_processes
+[Wed Dec 02 03:41:19.509351 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704] ModuleNotFoundError: No module named 'detector'
+[Wed Dec 02 03:41:19.510081 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704] 
+[Wed Dec 02 03:41:19.511146 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704] Internal Server Error: /favicon.ico
+[Wed Dec 02 03:41:19.512009 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704] Traceback (most recent call last):
+[Wed Dec 02 03:41:19.512657 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Wed Dec 02 03:41:19.514422 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     response = get_response(request)
+[Wed Dec 02 03:41:19.516972 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+[Wed Dec 02 03:41:19.517854 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     response = self.process_request(request)
+[Wed Dec 02 03:41:19.518605 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+[Wed Dec 02 03:41:19.519309 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     if self.should_redirect_with_slash(request):
+[Wed Dec 02 03:41:19.520100 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+[Wed Dec 02 03:41:19.520904 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     not is_valid_path(request.path_info, urlconf) and
+[Wed Dec 02 03:41:19.521835 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+[Wed Dec 02 03:41:19.522628 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     resolve(path, urlconf)
+[Wed Dec 02 03:41:19.523452 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+[Wed Dec 02 03:41:19.524164 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     return get_resolver(urlconf).resolve(path)
+[Wed Dec 02 03:41:19.525061 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+[Wed Dec 02 03:41:19.525860 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     for pattern in self.url_patterns:
+[Wed Dec 02 03:41:19.527435 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 03:41:19.528337 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 03:41:19.529062 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+[Wed Dec 02 03:41:19.529803 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 02 03:41:19.530447 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 03:41:19.531013 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 03:41:19.531846 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+[Wed Dec 02 03:41:19.532620 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     return import_module(self.urlconf_name)
+[Wed Dec 02 03:41:19.533454 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 03:41:19.539862 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 03:41:19.540720 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 03:41:19.541545 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 03:41:19.542460 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 03:41:19.543302 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 03:41:19.544029 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 03:41:19.544717 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 03:41:19.545373 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/seethos/seethos/urls.py", line 22, in <module>
+[Wed Dec 02 03:41:19.545979 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     path('operations/', include('uimanagement.urls')),
+[Wed Dec 02 03:41:19.546528 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+[Wed Dec 02 03:41:19.547168 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     urlconf_module = import_module(urlconf_module)
+[Wed Dec 02 03:41:19.547910 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 03:41:19.548769 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 03:41:19.549461 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 03:41:19.550178 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 03:41:19.551036 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 03:41:19.551767 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 03:41:19.552461 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 03:41:19.553080 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 03:41:19.553706 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/seethos/uimanagement/urls.py", line 2, in <module>
+[Wed Dec 02 03:41:19.554305 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     from . import views
+[Wed Dec 02 03:41:19.555305 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/seethos/uimanagement/views.py", line 12, in <module>
+[Wed Dec 02 03:41:19.556273 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     from .utils.processManagement import (
+[Wed Dec 02 03:41:19.556956 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]   File "/home/ubuntu/django/seethos/uimanagement/utils/processManagement.py", line 9, in <module>
+[Wed Dec 02 03:41:19.558097 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704]     from detector.main import create_video_process, stop_processes
+[Wed Dec 02 03:41:19.559424 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704] ModuleNotFoundError: No module named 'detector'
+[Wed Dec 02 03:41:19.560092 2020] [wsgi:error] [pid 17:tid 140177593640704] [remote 172.17.0.1:57704] 
+[Wed Dec 02 04:03:02.168147 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714] Internal Server Error: /
+[Wed Dec 02 04:03:02.168391 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714] Traceback (most recent call last):
+[Wed Dec 02 04:03:02.168546 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Wed Dec 02 04:03:02.168696 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     response = get_response(request)
+[Wed Dec 02 04:03:02.168842 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/base.py", line 165, in _get_response
+[Wed Dec 02 04:03:02.168993 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     callback, callback_args, callback_kwargs = self.resolve_request(request)
+[Wed Dec 02 04:03:02.169137 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+[Wed Dec 02 04:03:02.169287 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     resolver_match = resolver.resolve(request.path_info)
+[Wed Dec 02 04:03:02.169437 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+[Wed Dec 02 04:03:02.169614 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     for pattern in self.url_patterns:
+[Wed Dec 02 04:03:02.169760 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 04:03:02.169905 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 04:03:02.170047 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+[Wed Dec 02 04:03:02.170192 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 02 04:03:02.170333 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 04:03:02.170480 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 04:03:02.170621 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+[Wed Dec 02 04:03:02.170767 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     return import_module(self.urlconf_name)
+[Wed Dec 02 04:03:02.170908 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 04:03:02.171051 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 04:03:02.171193 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 04:03:02.171338 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 04:03:02.171492 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 04:03:02.171684 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 04:03:02.171824 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 04:03:02.171966 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 04:03:02.172105 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/seethos/seethos/urls.py", line 22, in <module>
+[Wed Dec 02 04:03:02.172247 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     path('operations/', include('uimanagement.urls')),
+[Wed Dec 02 04:03:02.172399 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+[Wed Dec 02 04:03:02.172547 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     urlconf_module = import_module(urlconf_module)
+[Wed Dec 02 04:03:02.172686 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 04:03:02.172828 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 04:03:02.172989 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 04:03:02.173133 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 04:03:02.173272 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 04:03:02.173425 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 04:03:02.173565 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 04:03:02.173707 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 04:03:02.173849 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/seethos/uimanagement/urls.py", line 2, in <module>
+[Wed Dec 02 04:03:02.173990 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     from . import views
+[Wed Dec 02 04:03:02.174131 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/seethos/uimanagement/views.py", line 12, in <module>
+[Wed Dec 02 04:03:02.174277 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     from .utils.processManagement import (
+[Wed Dec 02 04:03:02.174424 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/seethos/uimanagement/utils/processManagement.py", line 9, in <module>
+[Wed Dec 02 04:03:02.174568 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     from detector.main import create_video_process, stop_processes
+[Wed Dec 02 04:03:02.174715 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714] ModuleNotFoundError: No module named 'detector'
+[Wed Dec 02 04:03:02.174869 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714] 
+[Wed Dec 02 04:03:02.175069 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714] Internal Server Error: /
+[Wed Dec 02 04:03:02.175214 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714] Traceback (most recent call last):
+[Wed Dec 02 04:03:02.175357 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Wed Dec 02 04:03:02.175505 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     response = get_response(request)
+[Wed Dec 02 04:03:02.175648 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/base.py", line 165, in _get_response
+[Wed Dec 02 04:03:02.175796 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     callback, callback_args, callback_kwargs = self.resolve_request(request)
+[Wed Dec 02 04:03:02.175938 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+[Wed Dec 02 04:03:02.176079 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     resolver_match = resolver.resolve(request.path_info)
+[Wed Dec 02 04:03:02.176220 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+[Wed Dec 02 04:03:02.176361 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     for pattern in self.url_patterns:
+[Wed Dec 02 04:03:02.176521 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 04:03:02.176689 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 04:03:02.176842 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+[Wed Dec 02 04:03:02.176999 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 02 04:03:02.177141 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 04:03:02.177287 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 04:03:02.177435 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+[Wed Dec 02 04:03:02.177579 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     return import_module(self.urlconf_name)
+[Wed Dec 02 04:03:02.177720 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 04:03:02.177861 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 04:03:02.178002 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 04:03:02.178146 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 04:03:02.178287 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 04:03:02.178432 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 04:03:02.178572 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 04:03:02.178713 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 04:03:02.178854 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/seethos/seethos/urls.py", line 22, in <module>
+[Wed Dec 02 04:03:02.178998 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     path('operations/', include('uimanagement.urls')),
+[Wed Dec 02 04:03:02.179140 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+[Wed Dec 02 04:03:02.179281 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     urlconf_module = import_module(urlconf_module)
+[Wed Dec 02 04:03:02.179426 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 04:03:02.179569 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 04:03:02.179709 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 04:03:02.179855 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 04:03:02.179997 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 04:03:02.180139 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 04:03:02.180279 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 04:03:02.180423 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 04:03:02.180564 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/seethos/uimanagement/urls.py", line 2, in <module>
+[Wed Dec 02 04:03:02.180706 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     from . import views
+[Wed Dec 02 04:03:02.180846 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/seethos/uimanagement/views.py", line 12, in <module>
+[Wed Dec 02 04:03:02.181076 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     from .utils.processManagement import (
+[Wed Dec 02 04:03:02.181264 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]   File "/home/ubuntu/django/seethos/uimanagement/utils/processManagement.py", line 9, in <module>
+[Wed Dec 02 04:03:02.181497 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714]     from detector.main import create_video_process, stop_processes
+[Wed Dec 02 04:03:02.181666 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714] ModuleNotFoundError: No module named 'detector'
+[Wed Dec 02 04:03:02.181831 2020] [wsgi:error] [pid 18:tid 140278615799552] [remote 172.17.0.1:57714] 
+[Wed Dec 02 04:03:02.521100 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716] Internal Server Error: /favicon.ico
+[Wed Dec 02 04:03:02.521288 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716] Traceback (most recent call last):
+[Wed Dec 02 04:03:02.521476 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Wed Dec 02 04:03:02.521630 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     response = get_response(request)
+[Wed Dec 02 04:03:02.521773 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+[Wed Dec 02 04:03:02.521925 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     response = self.process_request(request)
+[Wed Dec 02 04:03:02.522072 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+[Wed Dec 02 04:03:02.522217 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     if self.should_redirect_with_slash(request):
+[Wed Dec 02 04:03:02.522365 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+[Wed Dec 02 04:03:02.522508 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     not is_valid_path(request.path_info, urlconf) and
+[Wed Dec 02 04:03:02.522653 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+[Wed Dec 02 04:03:02.522833 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     resolve(path, urlconf)
+[Wed Dec 02 04:03:02.522980 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+[Wed Dec 02 04:03:02.523123 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     return get_resolver(urlconf).resolve(path)
+[Wed Dec 02 04:03:02.523269 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+[Wed Dec 02 04:03:02.523430 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     for pattern in self.url_patterns:
+[Wed Dec 02 04:03:02.523574 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 04:03:02.523717 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 04:03:02.523858 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+[Wed Dec 02 04:03:02.524004 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 02 04:03:02.524149 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 04:03:02.524291 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 04:03:02.524448 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+[Wed Dec 02 04:03:02.524590 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     return import_module(self.urlconf_name)
+[Wed Dec 02 04:03:02.524733 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 04:03:02.524878 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 04:03:02.525023 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 04:03:02.525167 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 04:03:02.525314 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 04:03:02.525460 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 04:03:02.525604 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 04:03:02.525747 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 04:03:02.525892 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/seethos/seethos/urls.py", line 22, in <module>
+[Wed Dec 02 04:03:02.526033 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     path('operations/', include('uimanagement.urls')),
+[Wed Dec 02 04:03:02.526198 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+[Wed Dec 02 04:03:02.526357 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     urlconf_module = import_module(urlconf_module)
+[Wed Dec 02 04:03:02.526519 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 04:03:02.526670 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 04:03:02.526834 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 04:03:02.526978 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 04:03:02.527126 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 04:03:02.527272 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 04:03:02.527420 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 04:03:02.527562 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 04:03:02.527707 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/seethos/uimanagement/urls.py", line 2, in <module>
+[Wed Dec 02 04:03:02.527850 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     from . import views
+[Wed Dec 02 04:03:02.527996 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/seethos/uimanagement/views.py", line 12, in <module>
+[Wed Dec 02 04:03:02.528138 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     from .utils.processManagement import (
+[Wed Dec 02 04:03:02.528282 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/seethos/uimanagement/utils/processManagement.py", line 9, in <module>
+[Wed Dec 02 04:03:02.528428 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     from detector.main import create_video_process, stop_processes
+[Wed Dec 02 04:03:02.528579 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716] ModuleNotFoundError: No module named 'detector'
+[Wed Dec 02 04:03:02.528734 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716] 
+[Wed Dec 02 04:03:02.528937 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716] Internal Server Error: /favicon.ico
+[Wed Dec 02 04:03:02.529083 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716] Traceback (most recent call last):
+[Wed Dec 02 04:03:02.529228 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Wed Dec 02 04:03:02.529374 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     response = get_response(request)
+[Wed Dec 02 04:03:02.529519 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+[Wed Dec 02 04:03:02.529662 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     response = self.process_request(request)
+[Wed Dec 02 04:03:02.529842 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+[Wed Dec 02 04:03:02.529984 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     if self.should_redirect_with_slash(request):
+[Wed Dec 02 04:03:02.530126 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+[Wed Dec 02 04:03:02.530266 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     not is_valid_path(request.path_info, urlconf) and
+[Wed Dec 02 04:03:02.530415 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+[Wed Dec 02 04:03:02.530555 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     resolve(path, urlconf)
+[Wed Dec 02 04:03:02.530697 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+[Wed Dec 02 04:03:02.530839 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     return get_resolver(urlconf).resolve(path)
+[Wed Dec 02 04:03:02.530980 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+[Wed Dec 02 04:03:02.531120 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     for pattern in self.url_patterns:
+[Wed Dec 02 04:03:02.531262 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 04:03:02.531435 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 04:03:02.531582 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+[Wed Dec 02 04:03:02.531725 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 02 04:03:02.531868 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+[Wed Dec 02 04:03:02.532011 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 02 04:03:02.532154 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+[Wed Dec 02 04:03:02.532307 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     return import_module(self.urlconf_name)
+[Wed Dec 02 04:03:02.532452 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 04:03:02.532595 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 04:03:02.532738 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 04:03:02.532881 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 04:03:02.533025 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 04:03:02.533168 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 04:03:02.533317 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 04:03:02.533461 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 04:03:02.533609 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/seethos/seethos/urls.py", line 22, in <module>
+[Wed Dec 02 04:03:02.533753 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     path('operations/', include('uimanagement.urls')),
+[Wed Dec 02 04:03:02.533898 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+[Wed Dec 02 04:03:02.534040 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     urlconf_module = import_module(urlconf_module)
+[Wed Dec 02 04:03:02.534184 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 04:03:02.534335 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 04:03:02.534476 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 04:03:02.534620 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 04:03:02.534765 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 04:03:02.534907 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 04:03:02.535050 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 04:03:02.535192 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 04:03:02.535351 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/seethos/uimanagement/urls.py", line 2, in <module>
+[Wed Dec 02 04:03:02.535521 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     from . import views
+[Wed Dec 02 04:03:02.535683 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/seethos/uimanagement/views.py", line 12, in <module>
+[Wed Dec 02 04:03:02.535849 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     from .utils.processManagement import (
+[Wed Dec 02 04:03:02.536022 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]   File "/home/ubuntu/django/seethos/uimanagement/utils/processManagement.py", line 9, in <module>
+[Wed Dec 02 04:03:02.536262 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716]     from detector.main import create_video_process, stop_processes
+[Wed Dec 02 04:03:02.536480 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716] ModuleNotFoundError: No module named 'detector'
+[Wed Dec 02 04:03:02.536660 2020] [wsgi:error] [pid 18:tid 140278624192256] [remote 172.17.0.1:57716] 
+[Wed Dec 02 04:26:28.770878 2020] [wsgi:error] [pid 18:tid 140464303875840] [remote 172.17.0.1:57724] Not Found: /
+[Wed Dec 02 04:26:28.771361 2020] [wsgi:error] [pid 18:tid 140464303875840] [remote 172.17.0.1:57724] Not Found: /
+[Wed Dec 02 04:26:28.840166 2020] [wsgi:error] [pid 18:tid 140464186304256] [remote 172.17.0.1:57724] Not Found: /favicon.ico
+[Wed Dec 02 04:26:28.840503 2020] [wsgi:error] [pid 18:tid 140464186304256] [remote 172.17.0.1:57724] Not Found: /favicon.ico
+[Wed Dec 02 07:37:31.142070 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750] mod_wsgi (pid=17): Target WSGI script '/home/ubuntu/django/seethos/seethos/wsgi.py' cannot be loaded as Python module.
+[Wed Dec 02 07:37:31.144131 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750] mod_wsgi (pid=17): Exception occurred processing WSGI script '/home/ubuntu/django/seethos/seethos/wsgi.py'.
+[Wed Dec 02 07:37:31.157260 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750] Traceback (most recent call last):
+[Wed Dec 02 07:37:31.157610 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "/home/ubuntu/django/seethos/seethos/wsgi.py", line 16, in <module>
+[Wed Dec 02 07:37:31.157836 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]     application = get_wsgi_application()
+[Wed Dec 02 07:37:31.158076 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Wed Dec 02 07:37:31.158278 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]     django.setup(set_prefix=False)
+[Wed Dec 02 07:37:31.158459 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+[Wed Dec 02 07:37:31.158726 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]     apps.populate(settings.INSTALLED_APPS)
+[Wed Dec 02 07:37:31.158962 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/apps/registry.py", line 114, in populate
+[Wed Dec 02 07:37:31.159154 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]     app_config.import_models()
+[Wed Dec 02 07:37:31.159366 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "/home/ubuntu/django/mmtxt/lib/python3.6/site-packages/django/apps/config.py", line 211, in import_models
+[Wed Dec 02 07:37:31.159555 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]     self.models_module = import_module(models_module_name)
+[Wed Dec 02 07:37:31.159790 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Wed Dec 02 07:37:31.160029 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 02 07:37:31.160244 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Wed Dec 02 07:37:31.160482 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Wed Dec 02 07:37:31.160714 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[Wed Dec 02 07:37:31.160932 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+[Wed Dec 02 07:37:31.161214 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+[Wed Dec 02 07:37:31.161492 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Wed Dec 02 07:37:31.161907 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "/home/ubuntu/django/seethos/uimanagement/models.py", line 26, in <module>
+[Wed Dec 02 07:37:31.162414 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]     class CameraSettings(models.Model):
+[Wed Dec 02 07:37:31.162739 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]   File "/home/ubuntu/django/seethos/uimanagement/models.py", line 31, in CameraSettings
+[Wed Dec 02 07:37:31.162941 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750]     alarm= models.ForeignKey(Alarms,blank=True, null=True,on_delete=models.PROTECT)
+[Wed Dec 02 07:37:31.163173 2020] [wsgi:error] [pid 17:tid 140380250822400] [remote 172.17.0.1:57750] NameError: name 'Alarms' is not defined
+[Thu Dec 03 04:21:07.485484 2020] [wsgi:error] [pid 20:tid 140183628220160] [remote 172.17.0.1:48934] UNIQUE constraint failed: CameraFeeds.feedURL
+[Thu Dec 03 05:08:57.461564 2020] [wsgi:error] [pid 21:tid 139699396179712] [remote 172.17.0.1:49352] Not Found: /media/Income_Statement_9_3.xlsx
+[Thu Dec 03 05:08:57.651051 2020] [wsgi:error] [pid 21:tid 139699328997120] [remote 172.17.0.1:49352] Not Found: /favicon.ico

@@ -1,0 +1,69 @@
+1. To create image, cd to the folder containing the dockerfile and then run the following command -
+ 	sudo docker build -t "seethos_army" . 
+	->here the name sheethos_army is the name of the docker immage
+	-> . is to create in the current directory
+2. To Run the created image as container, run the following command -
+	sudo docker run -p 81:80 -v /home/ubuntu/Docker1/docker test/files/seethos:/home/ubuntu/django/seethos -d --name seethos_army seethos_army
+	->-p 81:80 is to map the container's port to the host's port
+	->-v  /home/ubuntu/Docker1/docker test/files/seethos:/home/ubuntu/django/seethos to map the docker container's folder with the host's folder
+	->-d This is to run the docker container in the deminised mode(mean run the docker container in the backend)
+	->--name This is to name the containers name
+2.a sudo docker run -p 82:80 -v /home/ubuntu/crm/crm:/home/ubuntu/django/crm --link mongo:mongo --link rabbitMQ:crmrabbit --name crm_con.2 crm_version.3
+	This command is to create the docker container with linking rabbitmq and celery 
+	->--link mongo:mongo linking the container mongo with the host one 
+	->--link rabbitMQ:crmrabbit linking the container's rabbitmq with the host's .
+3.To stop the running container
+	sudo docker stop container name
+4.To restart the container 
+	sudo docker restart container name
+	->This command need to run after the source code edit
+5.To know the how many container are in run mode
+	sudo docker ps
+	sudo docker run -p ->This will list all the container 
+6.This is use to convert the docker immage in to a container
+	sudo docker run
+7.To execute/go in to current the docker container	
+	sudo docker exec -it container_name bash
+	->-it Interacting teminal 
+8.To delete a container 
+	sudo docker rm Container_name
+9.Runs a command in a new container.
+	sudo docker run 
+10.Builds an image form a Docker file
+	sudo docker build
+11.Pulls an image or a repository from a registry
+	sudo docker pull 
+12.Pushes an image or a repository to a registry
+	sudo docker push
+13.Exports a container’s filesystem as a tar archive
+	sudo docker export
+14.Attaches to a running container
+	sudo docker attach
+15.Creates a new image from a container’s changes
+	sudo docker commit
+
+
+
+docker compose:-This is use to mantain multiple immages
+16.To running the docker-compose run command as follo
+ws.
+
+	sudo docker-compose run web command .
+17.Change the ownership of the new files.
+
+	sudo chown -R $USER:$USER .
+18.To run the docker-composer 
+	sudo docker-compose up
+19.To stop the docker-compose
+	sudo docker-compose down
+20.To see the docker images
+	sudo docker images
+21.To delete/remove the docker images
+	sudo docker rmi image_id
+	sudo docker rmi -f image_id
+	->-f is to forcefully delete image
+22.To see the docker Error logs
+	->sudo docker logs 7f453c094a26
+	This will give the logs	corresponding to a particular container_id
+	->suod docker logs		
+	This will give the general logs of the docker container

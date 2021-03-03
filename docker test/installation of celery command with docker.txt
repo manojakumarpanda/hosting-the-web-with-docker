@@ -1,0 +1,17 @@
+RUN apt-get install -y supervisor
+	->command for the installation of supervisor
+COPY ./celery.conf /etc/supervisor/conf.d/celery.conf
+	->This command for the copy the conf file from docker container to the host
+service superviser start
+	->This is to start the superviser
+sudo docker run -d --hostname crmrabbit --name rabbitMQ -p 5672:5672 -p 15672:15672 
+	-e RABBITMQ_DEFAULT_USER=crm -e RABBITMQ_DEFAULT_PASS=newPassword1233456 rabbitmq:3
+		->This command is to create the docker rabbit container
+	
+sudo docker run --name mongo -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root 
+	-e MONGO_INITDB_ROOT_PASSWORD=sdafasjdkfe323tfd -e MONGO_INITDB_DATABASE=admin -d mongo
+		->This is to create docker container for the mongo db
+
+
+sudo docker run -p 82:80 -v /home/ubuntu/crm/crm:/home/ubuntu/django/crm --link mongo:mongo 
+	--link rabbitMQ:crmrabbit --name crm_con.2 crm_version.3

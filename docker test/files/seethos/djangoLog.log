@@ -1,0 +1,23 @@
+2020-12-03 04:52:26,617 INFO Field 'alarmName' expected a number but got 'Alarm 1'.
+2020-12-03 04:54:49,387 INFO [Errno 1] Operation not permitted: '/home/ubuntu/django/seethos/media_files/Income_Statement_9_3.xlsx'
+2020-12-03 04:58:13,844 INFO [Errno 1] Operation not permitted: '/home/ubuntu/django/seethos/media_files/Income_Statement_9_3_ElpMI2m.xlsx'
+2020-12-03 05:01:12,812 INFO 3
+2020-12-03 05:01:12,813 INFO [Errno 1] Operation not permitted: '/home/ubuntu/django/seethos/media_files/Income_Statement_9_3_JgBkHVj.xlsx'
+2020-12-03 05:01:44,119 INFO 3
+2020-12-03 05:01:44,119 INFO [Errno 1] Operation not permitted: '/home/ubuntu/django/seethos/media_files/Income_Statement_9_3_9wFLyXl.xlsx'
+2020-12-03 05:04:42,039 INFO 3
+2020-12-03 05:04:42,041 INFO [Errno 13] Permission denied: '/home/ubuntu/django/media_files'
+2020-12-03 05:05:51,986 INFO 3
+2020-12-03 05:05:51,988 INFO [Errno 13] Permission denied: '/home/ubuntu/django/media_files'
+2020-12-03 05:05:53,009 INFO 3
+2020-12-03 05:05:53,009 INFO [Errno 13] Permission denied: '/home/ubuntu/django/media_files'
+2020-12-03 05:08:57,461 WARNING Not Found: /media/Income_Statement_9_3.xlsx
+2020-12-03 05:08:57,650 WARNING Not Found: /favicon.ico
+2020-12-03 05:16:57,350 INFO 1
+2020-12-03 05:16:57,351 INFO Alarms matching query does not exist.
+2020-12-03 05:17:02,117 INFO 1
+2020-12-03 05:17:02,117 INFO Alarms matching query does not exist.
+2020-12-03 05:17:23,411 INFO <class 'TypeError'> saveCameraTypeSettings.py 36 CameraSettings() got an unexpected keyword argument 'alarmType'
+2020-12-03 05:25:48,957 INFO name 'ast' is not defined
+2020-12-03 05:25:50,024 INFO name 'ast' is not defined
+2020-12-03 05:25:50,644 INFO name 'ast' is not defined
